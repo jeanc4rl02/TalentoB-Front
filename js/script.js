@@ -18,7 +18,7 @@ document.getElementById('upload-form').addEventListener('submit', async function
     formData.append('urls', JSON.stringify(urls));
 
     try {
-        const response = await fetch('http://localhost:8080/api/upload', {
+        const response = await fetch('https://chat-talentob.onrender.com/api/upload', {
             method: 'POST',
             body: formData
         });
@@ -60,7 +60,7 @@ document.getElementById('question-form').addEventListener('submit', async functi
     }
 
     try {
-        const response = await fetch('http://localhost:8080/api/ask', {
+        const response = await fetch('https://chat-talentob.onrender.com/api/ask', {
             method: 'POST',
             body: formData,
         });
