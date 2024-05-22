@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalentoB - QAChat</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chat</h1>
+        <form id="upload-form">
+            <label for="files">Seleccionar archivos (PDF o DOCX):</label>
+            <input type="file" id="files" name="files" multiple accept=".pdf,.docx">
+            <label for="urls">Ingresar URL (Una por línea):</label>
+            <textarea id="urls" name="urls" rows="4" placeholder="Ingresa una URL..."></textarea>
+            <input type="text" id="title" name="title" placeholder="Ingresa un título para los documentos">
+            <button type="submit">Cargar Archivos</button>
+        </form>
+        <form id="question-form">
+            <label for="question">Haz una pregunta relacionada con los documentos:</label>
+            <input type="text" id="question" name="question" placeholder="Ingresa tu pregunta aquí...">
+            <button type="submit">Preguntar</button>
+        </form>
+        <div id="response-container"></div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
