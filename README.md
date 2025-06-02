@@ -1,3 +1,4 @@
+# BBDD fuera de servicio
 # Versión en Español
 # ¡Bienvenidos a TalentoBot!
 Deploy Front: https://jeanc4rl02.github.io/TalentoB-Front/
@@ -28,8 +29,8 @@ TalentoBot es un servicio de análisis de documentos impulsado por IA, el cual t
 
 ### Recuerda que las respuestas están limitadas por la capa gratuita que brinda OpenIA, por lo que el chat no puede brindar una respuesta muy extensa.
 
+# BBDD out of service
 # English Version
-
 # Welcome to TalentoBot!
 Deploy Front: https://jeanc4rl02.github.io/TalentoB-Front/
 
